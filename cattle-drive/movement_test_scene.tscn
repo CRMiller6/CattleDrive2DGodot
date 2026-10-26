@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://c13u0d87y02s2"]
+
+[ext_resource type="Texture2D" uid="uid://bki4ex0kkobb2" path="res://icon.svg" id="1_sagje"]
+
+[node name="movement_test_scene" type="Node2D" unique_id=319640928]
+
+[node name="Background" type="Sprite2D" parent="." unique_id=1004814080]
+modulate = Color(0, 1, 0, 1)
+position = Vector2(575.5, 340.00006)
+scale = Vector2(8.9140625, 6.515625)
+texture = ExtResource("1_sagje")
+
+[node name="Cows" type="Sprite2D" parent="." unique_id=708255546]
+position = Vector2(372, 301)
+texture = ExtResource("1_sagje")
+
+[node name="Dog" type="Sprite2D" parent="." unique_id=969687982]
+position = Vector2(295, 156)
+texture = ExtResource("1_sagje")
+
+[node name="Cowboy" type="Sprite2D" parent="." unique_id=1546285290]
+position = Vector2(300, 456)
+texture = ExtResource("1_sagje")

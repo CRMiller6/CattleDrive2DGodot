@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://cy0l8t0ruc8wa"]
+
+[ext_resource type="Script" uid="uid://b31ahpm6ac0eo" path="res://ui_menu.gd" id="1_gww7l"]
+
+[node name="UiMenu" type="Control" unique_id=369247027]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_gww7l")
+
+[node name="Control" type="Control" parent="." unique_id=2127619220]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=578835891]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -40.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="Button" type="Button" parent="VBoxContainer" unique_id=2094314841]
+custom_minimum_size = Vector2(200, 100)
+layout_mode = 2
+
+[node name="Button2" type="Button" parent="VBoxContainer" unique_id=301803959]
+custom_minimum_size = Vector2(200, 100)
+layout_mode = 2
+
+[node name="Button3" type="Button" parent="VBoxContainer" unique_id=1985695357]
+custom_minimum_size = Vector2(200, 100)
+layout_mode = 2
